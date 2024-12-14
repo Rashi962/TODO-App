@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="todo-container">
+    <button id="toggle-theme-btn">🌙</button> <!-- Smaller Toggle Theme Button -->
+    <h1>Todo List</h1>
+    <div class="input-section">
+      <input type="text" id="todo-input" placeholder="Enter your to-do item" />
+      <button id="add-todo-btn">+</button>
+    </div>
+    <div id="todo-list"></div>
+    <div class="status-section">
+      <p id="completed-count">Completed: 0</p>
+      <p id="total-count">Total: 0</p>
+    </div>
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
